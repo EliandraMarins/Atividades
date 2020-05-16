@@ -1,0 +1,11 @@
+#Programadora: Eliandra
+#Operação bancária
+
+print("Bom dia! Você tem R$1000,00 disponíveis na sua conta!")
+conta = 1000
+saque = float(input("Qual valor que você deseja sacar?"))
+if saque > conta:
+    print("Transação não autorizada.")
+else:
+    print("Transação autorizada! Retire R$" "%.2f" % saque)
+    print("Sua quantia restante é de: R$" "%.2f" % (conta-saque))
