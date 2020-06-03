@@ -1,0 +1,3 @@
+#Programadora Eliandra Marins
+rc=float(input("Digite a área do circulo em metros: "))
+print(f'A área do circulo é {3.14*(rc*rc)}m²')
