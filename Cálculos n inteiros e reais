@@ -1,0 +1,7 @@
+#Programadora Eliandra Marins
+n1=int(input('Insira aqui um número inteiro: '))
+n2=int(input('Insira aqui outro número inteiro: '))
+n3=float(input('Insira aqui um número real: '))
+print(f'O produto do dobro de {n1} com metade de {n2} é {(n1*2)*(n2/2)}')
+print(f'A soma do triplo de {n1} com {n3} é {(n1*3)+n3}')
+print(f'O número real {n3} elevado ao cubo é {n3**3}')
