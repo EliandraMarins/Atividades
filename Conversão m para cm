@@ -1,0 +1,3 @@
+#Programadora Eliandra Marins
+m=int(input('Digite a medida em metros:'))
+print(f'{m} metros equivalem a {m*100:.0f} centímetros')
