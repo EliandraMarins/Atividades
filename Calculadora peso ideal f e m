@@ -1,10 +1,13 @@
-#Programadora Eliandra Marins
-print('Calcule o seu peso ideal!')
-g=int(input('Qual o seu gênero? \n Digite 1 para masculino \n ou \n Digite 2 para feminino:  '))
-if (g<=1):
-    h =float(input('Qual a sua altura? '))
-    print(f' Seu peso ideal é de {(72.7*h)-58:.2f}kg.')
+# Programadora Eliandra Marins
 
+print('Calcule o seu peso ideal!')
+g = input('Qual o seu gênero? \n Digite M para masculino \n ou \n Digite F para feminino:  ')
+if (g == 'M' or g == 'm'):
+    h = float(input('Qual a sua altura? '))
+    print(f' Seu peso ideal é de {(72.7 * h) - 58:.2f}kg.')
 else:
-    h=float(input('Qual a sua altura? '))
-    print(f' Seu peso ideal é de {(62.1*h)-44.7:.2f}kg')
+    if (g == 'F' or g == 'f' ):
+        h = float(input('Qual a sua altura? '))
+        print(f' Seu peso ideal é de {(62.1 * h) - 44.7:.2f}kg')
+    else:
+        print('Nenhum valor válido foi digitado')
