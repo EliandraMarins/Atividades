@@ -1,0 +1,4 @@
+#Programadora Eliandra Marins
+n1=float(input('Digite o primeiro valor aqui:'))
+n2=float(input('Digite o segundo valor aqui:'))
+print(f'A soma do número {n1} e {n2} é de {n1+n2}')
