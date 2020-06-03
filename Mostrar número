@@ -1,0 +1,3 @@
+#Programadora Eliandra Marins
+n=int(input('Olá!\nDigite um número qualquer aqui:'))
+print(f'O número informado foi {n}')
