@@ -1,5 +1,0 @@
-#Programadora Eliandra Marins
-print('Conversor de graus fahrenheit para graus Celsius')
-f=float(input('Insira o valor em graus fahrenheit: '))
-c=(5*(f-32)/ 9)
-print(f'{f}ºF equivalem a {c:.2f}ºC')
