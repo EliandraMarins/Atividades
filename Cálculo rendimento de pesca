@@ -1,0 +1,10 @@
+#Programadora Eliandra Marins
+print('Olá João! Vamos calcular o rendimento do seu trabalho.')
+pp=float(input('Quantos kg de peixe foram pescados? '))
+if pp<=50:
+    print('Não excedeu o limite de pesca. Não necessita pagar multa.')
+
+else:
+    excesso=pp-50
+    print(f'Foram pescados {pp:.2f}kg. Foi excedida a quantidade de {excesso:.2f}kg.\n'
+          f'O valor a pagar será de R${excesso*4:.2f}')
