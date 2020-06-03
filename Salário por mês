@@ -1,0 +1,6 @@
+#Programadora Eliandra Marins
+print('Olá! Calcule o seu salário aqui')
+m=str(input('De qual mês será o cálculo? '))
+sh=float(input('Qual o valor que você ganha por hora? R$ '))
+ht=float(input('Quantas horas você trabalhou no mês? '))
+print(f'O seu salário do mês de {m} será de R${sh*ht:.2f}')
