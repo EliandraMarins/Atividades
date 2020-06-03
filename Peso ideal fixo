@@ -1,0 +1,5 @@
+#Programadora Eliandra Marins
+print('Calcule o seu peso ideal!')
+n=str(input('Qual o seu nome?  '))
+h =float(input('Qual a sua altura? '))
+print(f'{n}, seu peso ideal é de {(72.7*h)-58:.2f}kg.')
