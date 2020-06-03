@@ -1,0 +1,11 @@
+#Programadora Eliandra Marins
+print('Calculadora de salário')
+sb=float(input('Digite o seu salário bruto:'))
+ir=(sb)-(sb*89/100)
+inss=(sb)-(sb*92/100)
+sind=sb-(0.95*sb)
+print(f'Descontos:Total:R${ir+inss+sind:.2f}\nIR(11%):R${ir:.2f}\n'
+      f'INSS(8%):R${inss:.2f}\n'
+      f'Sindicato(5%):R${sind:.2f}\n')
+
+print(f'Valor do salário líquido:R${sb-ir-inss-sind:.2f}')
