@@ -16,13 +16,10 @@ print('-'*15)
 area=l*a
 tinta=area/3
 lata=math.ceil(tinta/18)
-vl=lata*18
+vl=lata*80
 galao=math.ceil(tinta/3.6)
 gl=galao*15
 print(f' Total de área:{area:.2f} m². O total de tinta gasta será de {tinta:.2f} litros')
-print(f'Você irá gastar:\nLatas contém 18 litros, valor unitário R$18,00\n'
+print(f'Você irá gastar:\nLatas contém 18 litros, valor unitário R$80,00\n'
       f'Você precisará de {lata} unidades, totalizando em dinheiro gasto R${vl:.2f}')
-print('-'*15)
-print(f'Galões contém 3.6 litros, valor unitário R$25,00 \n'
-      f'Você precisará de {galao} unidades, totalizando em dinheiro gasto R${gl}')
 print('-'*15)
