@@ -1,4 +1,5 @@
 # Programadora Eliandra Marins
+
 #Cada litro de tinta pinta 3m²
 #Lata de 18 litros custa R$80,00
 #Galão de 3.6 litros custa R$25,00
@@ -7,15 +8,6 @@
 #Considerar somente latas cheias
 
 import math
-'''print('Olá!\nEsse programa irá te ajudar a saber quanto de tinta usar para pintar sua casa.')
-print('*'*25)
-l=float(input('Qual a largura da parede?'))
-a=float(input('Qual a altura da parede?'))
-tinta=(l*a)/2
-area=l*a
-#Cada litro de tinta pinta uma área de 2m²
-print('Você precisará de {:.2f} litros de tinta para pintar uma área de {:.1f}m² !'.format(m,c))'''
-
 print('Bem vindo! Esse programa vai te ajudar a calcular a quantidade de tinta a ser usada para pintura.')
 print('-'*15)
 l=float(input('Insira a largura da área a ser pintada (em metros): '))
