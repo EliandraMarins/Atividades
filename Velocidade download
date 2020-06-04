@@ -1,0 +1,7 @@
+from math import ceil
+print('Descubra quanto tempo o arquivo vai demorar para ser baixado.')
+tamanho=float(input('Qual o tamanho do arquivo de download (em MB)? '))
+velocidade=float(input('Qual a velocidade da sua internet (em Mbps)?'))
+tempo=ceil(((tamanho * 8) / velocidade) / 60)
+
+print(f'Seu arquivo de {tamanho:.2f}MB será baixado em aproximadamente {tempo:.0f} minutos')
