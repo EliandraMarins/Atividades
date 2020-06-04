@@ -1,0 +1,36 @@
+# Programadora Eliandra Marins
+#Cada litro de tinta pinta 3m²
+#Lata de 18 litros custa R$80,00
+#Galão de 3.6 litros custa R$25,00
+#Informar quantidade de tinta,
+# quanto vai gastar se comprar só latas, só galões, misturar os dois para que o preço seja menor
+#Considerar somente latas cheias
+
+import math
+'''print('Olá!\nEsse programa irá te ajudar a saber quanto de tinta usar para pintar sua casa.')
+print('*'*25)
+l=float(input('Qual a largura da parede?'))
+a=float(input('Qual a altura da parede?'))
+tinta=(l*a)/2
+area=l*a
+#Cada litro de tinta pinta uma área de 2m²
+print('Você precisará de {:.2f} litros de tinta para pintar uma área de {:.1f}m² !'.format(m,c))'''
+
+print('Bem vindo! Esse programa vai te ajudar a calcular a quantidade de tinta a ser usada para pintura.')
+print('-'*15)
+l=float(input('Insira a largura da área a ser pintada (em metros): '))
+a=float(input('Insira a altura da área a ser pintada (em metros): '))
+print('-'*15)
+area=l*a
+tinta=area/3
+lata=math.ceil(tinta/18)
+vl=lata*18
+galao=math.ceil(tinta/3.6)
+gl=galao*15
+print(f' Total de área:{area:.2f} m². O total de tinta gasta será de {tinta:.2f} litros')
+print(f'Você irá gastar:\nLatas contém 18 litros, valor unitário R$18,00\n'
+      f'Você precisará de {lata} unidades, totalizando em dinheiro gasto R${vl:.2f}')
+print('-'*15)
+print(f'Galões contém 3.6 litros, valor unitário R$25,00 \n'
+      f'Você precisará de {galao} unidades, totalizando em dinheiro gasto R${gl}')
+print('-'*15)
